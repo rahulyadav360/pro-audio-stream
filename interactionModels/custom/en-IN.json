@@ -1,0 +1,134 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "powermoves radio show",
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOffIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.LoopOffIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.LoopOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayOldestEpisodeIntent",
+          "slots": [],
+          "samples": [
+            "from the start",
+            "start from scratch",
+            "start from the beginning",
+            "play from the beginning",
+            "the oldest episode",
+            "oldest episode",
+            "oldest",
+            "play the oldest episode"
+          ]
+        },
+        {
+          "name": "PlayNewestEpisodeIntent",
+          "slots": [],
+          "samples": [
+            "the most recent one",
+            "most recent episode",
+            "newest one",
+            "newest",
+            "latest",
+            "the latest episode",
+            "latest episode",
+            "play latest episode",
+            "play the latest one",
+            "play the latest episode"
+          ]
+        },
+        {
+          "name": "ChooseEpisodeIntent",
+          "slots": [
+            {
+              "name": "EpisodeNumber",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "OrdinalNumber",
+              "type": "AMAZON.Ordinal"
+            }
+          ],
+          "samples": [
+            "{OrdinalNumber}",
+            "{OrdinalNumber} one",
+            "play the {OrdinalNumber} episode",
+            "the {OrdinalNumber} episode",
+            "epsiode {EpisodeNumber}",
+            "epsiode number {EpisodeNumber}",
+            "{EpisodeNumber}",
+            "play episode number {EpisodeNumber}",
+            "play {OrdinalNumber} episode"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "1"
+}

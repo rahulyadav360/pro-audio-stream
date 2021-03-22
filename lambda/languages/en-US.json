@@ -1,0 +1,68 @@
+{
+    "SKILL_NAME": "Powermoves Radio Show",
+    "DEVICE_NOT_SUPPORTED": "Sorry, this device does not support audio playback.",
+    "RESUME_PLAYBACK": [
+        "Welcome back. You were listening to episode {}. Would you like to resume?"
+    ],
+    "RESUME_PLAYBACK_REPROMPT": [
+        "Would you like to continue listening to episode {}?"
+    ],
+    "NEW_USER_GREETING": [
+        "Welcome to {}. Would you like to start listening from the oldest episode or play the newest episode?"
+    ],
+    "NEW_USER_GREETING_REPROMPT": [
+        "You can either specify an episode number or choose between the oldest and newest episode to start playback. What would you like to do?"
+    ],
+    "PLAY_LATEST_EPISODE": [
+        "Playing the latest episode.",
+        "Here's the latest epsiode"
+    ],
+    "PLAY_OLDEST_EPISODE": [
+        "Playing the first episode.",
+        "Here's the oldest episode"
+    ],
+    "END_OF_PLAYLIST": [
+        "This was the last episode. Stay tuned for new episodes."
+    ],
+    "START_OF_PLAYLIST": [
+        "This is the first episode. You can only go forward from here."
+    ],
+    "SHUFFLE_ON": [
+        "Shuffle On"
+    ],
+    "SHUFFLE_OFF": [
+        "Shuffle Off"
+    ],
+    "LOOP_ON": [
+        "Loop On"
+    ],
+    "LOOP_OFF": [
+        "Loop Off"
+    ],
+    "PLAYING_CHOSEN_EPISODE":[
+        "Playing episode {}"
+    ],
+    "CHOOSE_EPISODE":[
+        "Sorry, I couldn't understand the episode number. Can you please repeat that?"
+    ],
+    "CHOOSE_EPISODE_REPROMPT":[
+        "Which episode would you like to play?"
+    ],
+    "HELP": [
+      "You are listening to {}. You can say, Next or Previous to navigate through the playlist. At any time, you can say Pause to pause the audio and Resume to resume. What would you like to do?"
+    ],
+    "HELP_REPROMPT": [
+      "What would you like to do?"
+    ],
+    "FALLBACK": [
+      "Sorry, I didn't understand that. Can you please repeat?"
+    ],
+    "FALLBACK_REPROMPT": [
+      "Say that again."
+    ],
+    "CANCEL_STOP_RESPONSE": [
+      "Thanks for listening."
+    ],
+    "ERROR": "Sorry, I wasn't able to handle your last request. Could you say that again?",
+    "ERROR_REPROMPT": "Could you say that again?"
+}

@@ -1,0 +1,119 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open template one",
+            "Alexa start template one",
+            "Alexa launch template one"
+          ],
+          "keywords": [],
+          "name": "python audio player template",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "en-CA": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open template one",
+            "Alexa start template one",
+            "Alexa launch template one"
+          ],
+          "keywords": [],
+          "name": "python audio player template",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-CA_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-CA_largeIconUri.png"
+        },
+        "en-IN": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open template one",
+            "Alexa start template one",
+            "Alexa launch template one"
+          ],
+          "keywords": [],
+          "name": "python audio player template",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        },
+        "en-AU": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open template one",
+            "Alexa start template one",
+            "Alexa launch template one"
+          ],
+          "keywords": [],
+          "name": "python audio player template",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-AU_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-AU_largeIconUri.png"
+        },
+        "en-GB": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open template one",
+            "Alexa start template one",
+            "Alexa launch template one"
+          ],
+          "keywords": [],
+          "name": "python audio player template",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:415528003195:function:388648a3-973f-414e-8d07-9e73a00a7f67:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:415528003195:function:388648a3-973f-414e-8d07-9e73a00a7f67:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:415528003195:function:388648a3-973f-414e-8d07-9e73a00a7f67:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:415528003195:function:388648a3-973f-414e-8d07-9e73a00a7f67:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "en-US": {},
+        "en-CA": {},
+        "en-IN": {},
+        "en-AU": {},
+        "en-GB": {}
+      }
+    }
+  }
+}
