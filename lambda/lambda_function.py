@@ -837,11 +837,13 @@ class CancelOrStopIntentHandler(AbstractRequestHandler):
     def handle(self, handler_input):
         logger.info("In CancelOrStopIntentHandler")
         language_prompts = handler_input.attributes_manager.request_attributes["_"]
-        
+        audio_directive = StopDirective()
+            
         speech_output = random.choice(language_prompts["CANCEL_STOP_RESPONSE"])
         
         return (
             handler_input.response_builder
+                .add_directive(audio_directive)
                 .speak(speech_output)
                 .set_should_end_session(True)
                 .response
