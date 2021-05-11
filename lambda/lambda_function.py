@@ -858,7 +858,7 @@ class HelpIntentHandler(AbstractRequestHandler):
         language_prompts = handler_input.attributes_manager.request_attributes["_"]
         
         skill_name = language_prompts["SKILL_NAME"]
-        speech_output = random.choice(language_prompts["HELP"])
+        speech_output = random.choice(language_prompts["HELP"]).format(skill_name)
         reprompt = random.choice(language_prompts["HELP_REPROMPT"])
         
         return (
