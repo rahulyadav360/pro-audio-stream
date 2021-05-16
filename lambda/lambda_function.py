@@ -52,7 +52,7 @@ class CheckAudioInterfaceHandler(AbstractRequestHandler):
     def handle(self, handler_input):
         logger.info("In CheckAudioInterfaceHandler")
         language_prompts = handler_input.attributes_manager.request_attributes["_"]
-        speech_output = random.choice(language_prompts['DEVICE_NOT_SUPPORTED'])
+        speech_output = language_prompts['DEVICE_NOT_SUPPORTED']
             
         return (
             handler_input.response_builder
